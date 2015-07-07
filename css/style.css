@@ -1,4 +1,4 @@
-﻿body
+body
 {
 }
 
@@ -83,14 +83,14 @@
     height: 150px;
     margin: 20px 10px 10px 0px;
     float: left;
-    background-image:url(../img/con5.jpg) ; 
+    background-image:url(../img/con5.JPG) ; 
 }
 #con6 {
     width: 262px;
     height: 150px;
     margin: 20px 10px 10px 0px;
     float: left;
-    background-image:url(../img/con6.jpg) ; 
+    background-image:url(../img/con6.JPG) ; 
 }
 
 #con7 {
@@ -98,14 +98,14 @@
     height: 150px;
     margin: 20px 10px 10px 0px;
     float: left;
-    background-image:url(../img/con7.jpg) ; 
+    background-image:url(../img/con7.JPG) ; 
 }
 #con8 {
     width: 262px;
     height: 150px;
     margin: 20px 0px 10px 0px;
     float: right;
-    background-image:url(../img/con8.jpg) ; 
+    background-image:url(../img/con8.JPG) ; 
 }
 
 #presentationpage
