@@ -1,0 +1,143 @@
+﻿body
+{
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Kaiti SC';
+    list-style-type: none;
+    text-decoration: none;
+}
+
+#header {
+    width: 1080px;
+    height: 100px;
+    margin: 0px auto;
+}
+
+#main_gnb {
+    width: 1080px;
+    height: 30px;
+    margin: 0px auto;
+    border-top:1px solid #d2d2d2;
+    border-bottom:1px solid #d2d2d2;
+}
+
+    #main_gnb ul li {
+        width:250px;
+        float: left;
+        text-align:center;
+        line-height:30px;        
+    }
+
+        #main_gnb ul li a {
+            color: #898989;
+        }
+        
+        #main_gnb ul li  :hover {
+        color:#f8b62b;      
+    }
+
+/*header end*/
+
+#content {
+    width: 1080px;
+    height: 730px;
+    margin: 20px auto 0px auto;
+}
+
+#con1 {
+    width: 262px;
+    height: 150px;
+    margin: 20px 10px 10px 0px;
+    float: left; 
+    background-image:url(../img/con1.jpg) ; 
+}
+
+#con2 {
+    width: 262px;
+    height: 150px;
+    margin: 20px 10px 10px 0px;
+    float: left;
+    background-image:url(../img/con2.jpg) ; 
+}
+
+#con3 {
+    width: 262px;
+    height: 150px;
+    margin: 20px 10px 10px 0px;
+    float: left;
+    background-image:url(../img/con3.jpg) ; 
+}
+
+#con4 {
+    width: 262px;
+    height: 150px;
+    margin: 20px 0px 10px 0px;
+    float: right;
+    background-image:url(../img/con4.jpg) ; 
+}
+#con5 {
+    width: 262px;
+    height: 150px;
+    margin: 20px 10px 10px 0px;
+    float: left;
+    background-image:url(../img/con5.jpg) ; 
+}
+#con6 {
+    width: 262px;
+    height: 150px;
+    margin: 20px 10px 10px 0px;
+    float: left;
+    background-image:url(../img/con6.jpg) ; 
+}
+
+#con7 {
+    width: 262px;
+    height: 150px;
+    margin: 20px 10px 10px 0px;
+    float: left;
+    background-image:url(../img/con7.jpg) ; 
+}
+#con8 {
+    width: 262px;
+    height: 150px;
+    margin: 20px 0px 10px 0px;
+    float: right;
+    background-image:url(../img/con8.jpg) ; 
+}
+
+#presentationpage
+{
+    margin-left:80px;
+}
+
+#diarypage
+{
+    margin-left:100px;
+}
+ #contentpage
+ {
+    width:1080px;
+    height:450px;
+    margin:40px and 0px auto;
+    margin-left:100px;
+ }
+#contectpage_left{
+    float:left;
+    margin-left:100px;
+    margin-top:30px;
+} 
+
+#contectpage_right{
+    width:150px;
+    height:200px;
+    float:left;
+    background-image:url(../img/contentpage1.jpeg);
+    margin-top:30px;
+    margin-left:20px;
+}
+}
+
+    
