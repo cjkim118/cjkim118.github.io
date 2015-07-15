@@ -1,11 +1,8 @@
 
 this.imagePreview = function(){	
-	/* CONFIG */
-		var flag = 1;
 		xOffset = 10;
 		yOffset = 30;
 
-	/* END CONFIG */
 		$("a.preview").click(function(e){
 
 		this.t = this.title;
@@ -16,8 +13,8 @@ this.imagePreview = function(){
 			.css("top",(e.pageY- xOffset) + "px")
 			.css("left",(e.pageX + yOffset) + "px")
 			.fadeIn("fast");
-			this.title = this.t;	
-			flag++;					
+			this.title = this.t;		
+
     });
 		document.onkeydown = keyevent; 
 		function keyevent(){ 
