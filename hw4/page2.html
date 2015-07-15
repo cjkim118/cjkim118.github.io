@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta charset="UTF-8">
+	<title>瀑布流布局——基础实验（四）</title>
+	<link rel="stylesheet" type="text/css" media="all" href="./data/style.css">
+	<!--[if lte IE 9]>
+		<script type="text/javascript" src="js/html5.js"></script>
+	<![endif]-->
+	<script type="text/javascript" src="./data/jquery.min.js"></script>
+	<script type="text/javascript" src="./data/pagerefetch.js"></script>
+	<script type="text/javascript" src="./data/main.js"></script>
+</head>
+<body>
+<div id="wrapper">
+
+	<div id="content">
+
+	<div id="thumbs" style="position: relative; height: 989px;" class="masonry">
+
+
+		<div class="imgbox masonry-brick" style="opacity: 1; position: absolute; top: 10px; left: 15px;">
+				<a href="./img/11.jpg"  class="preview" title="还要说吗" onclick="imagePreview(); return false;">
+					<img src="./img/11.jpg" alt="图片加载失败" >
+				</a>
+				
+		</div>
+		
+		<div class="imgbox masonry-brick" style="opacity: 1; position: absolute; top: 10px; left: 294px;">
+				<a href="./img/12.jpg" class="preview" title="一周年纪念日" onclick="imagePreview(); return false;">
+					<img src="./img/12.jpg" alt="图片加载失败" >
+				</a>
+				
+		</div>
+		
+		<div class="imgbox masonry-brick" style="opacity: 1; position: absolute; top: 10px; left: 573px;">
+				<a href="./img/13.jpg" class="preview" title="不要分哦" onclick="imagePreview(); return false;">
+					<img src="./img/13.jpg" alt="图片加载失败" >
+				</a>
+				
+		</div>
+		
+		<div class="imgbox masonry-brick" style="opacity: 1; position: absolute; top: 250px; left: 294px;">
+				<a href="./img/14.jpg" class="preview" title="天天爱你" onclick="imagePreview(); return false;">
+					<img src="./img/14.jpg" alt="图片加载失败" >
+				</a>
+				
+		</div>
+		
+		<div class="imgbox masonry-brick" style="opacity: 1; position: absolute; top: 341px; left: 573px;">
+				<a href="./img/15.jpg" class="preview" title="伪评论" onclick="imagePreview(); return false;">
+					<img src="./img/15.jpg" alt="图片加载失败" >
+				</a>
+				
+		</div>
+		
+		<div class="imgbox masonry-brick" style="opacity: 1; position: absolute; top: 375px; left: 294px;">
+				<a href="./img/16.jpg" class="preview" title="爱爱爱么么哒" onclick="imagePreview(); return false;">
+					<img src="./img/16.jpg" alt="图片加载失败" >
+				</a>
+				
+		</div>
+		
+		<div class="imgbox masonry-brick" style="opacity: 1; position: absolute; top: 413px; left: 15px;">
+				<a href="./img/17.jpg" class="preview" title="改写什么呢。。。" onclick="imagePreview(); return false;">
+					<img src="./img/17.jpg" alt="图片加载失败" >
+				</a>
+				
+		</div>
+		
+		<div class="imgbox masonry-brick" style="opacity: 1; position: absolute; top: 571px; left: 294px;">
+				<a href="./img/18.jpg" class="preview" title="想你想你" onclick="imagePreview(); return false;">
+					<img src="./img/18.jpg" alt="图片加载失败" >
+				</a>
+				
+		</div>
+		
+		<div class="imgbox masonry-brick" style="opacity: 1; position: absolute; top: 661px; left: 15px;">
+				<a href="./img/19.jpg" class="preview" title="每天上班累吧" onclick="imagePreview(); return false;">
+					<img src="./img/19.jpg" alt="图片加载失败" >
+				</a>
+				
+		</div>
+		
+		<div class="imgbox masonry-brick"style="opacity: 1; position: absolute; top: 679px; left: 573px;">
+				<a href="./img/20.jpg" class="preview" title="周末去找你~"onclick="imagePreview(); return false;">
+					<img src="./img/20.jpg"  class="preview" alt="图片加载失败" >
+				</a>
+				
+		</div>
+		
+		<div id="page_loading">
+			<img src="img/loading.gif" alt="页面正在加载">
+			<span>给力加载中……</span>
+		</div>
+
+	</div>
+
+	<!-- 生成下一页的链接，用于 Ajax 分页 -->
+	<div id="next_page">
+		<!-- 获取下一页的页数 -->
+		<a href="page3.html">下一页</a></div>
+
+	</div>
+
+</div>
+</body>
+</html>

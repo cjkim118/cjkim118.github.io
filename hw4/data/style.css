@@ -1,0 +1,63 @@
+/*** 预设 ***/
+
+html, body, div, span, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, address, cite, code,del, dfn, em, img, ins, kbd, q, samp,small, strong, sub, sup, var,b, i,dl, dt, dd, ol, ul, li, fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, header, hgroup, section, summary, time, mark, audio, video 
+{margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; vertical-align: baseline; background: transparent; }
+body{line-height: 1; text-align: left; }
+:focus {outline: 0; }
+article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {display: block; }
+ol, ul {list-style: none; }
+blockquote, q {quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after {content:''; content:none; }
+ins {text-decoration: none; }
+mark {background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
+del {text-decoration: line-through; }
+table {border-collapse: collapse; border-spacing: 0; }
+input, select {vertical-align: middle; }
+
+/*** 通用设置 ***/
+
+body {font-family: "Microsoft YaHei", Georgia, Geneva, times; background: none repeat scroll 0 0 #F5F5F5; }
+#wrapper {width: 920px; margin: 0 auto; text-align: left; font-size: 11pt; }
+#content {min-height: 390px; width: 920px; }
+#content a {text-decoration: none; }
+
+
+input, textarea, button, submit {font-size: 9pt; font-family: "Microsoft YaHei", Georgia, Geneva, times; }
+#page_loading {display: none; background: #FFFFFF; opacity: 0.7; height: 130px; width: 220px;  padding: 5px 10px 10px 10px; position: absolute; bottom: -50px; left: 330px; text-align: center; color: #000000; font-weight: 500; -moz-border-radius: 6px; -webkit-border-radius: 6px; border-radius: 6px; border: 1px solid #111111; -webkit-box-shadow: 0 0 6px #111111; -moz-box-shadow: 0 0 3px #111111; z-index: 200; }
+#page_loading img {display: block; margin: 0 auto; }
+
+/*** 首页 ***/
+
+#thumbs {position: relative; width: 895px; padding: 10px 0 20px 15px; }
+#thumbs a {color: #26ADF5; }
+.imgbox {opacity: 0; position: absolute; max-width: 260px; margin: 5px 5px 5px 5px; -moz-border-radius:6px; -webkit-border-radius:6px; border-radius:6px; border:1px solid #EEE; -webkit-box-shadow:0 0 6px #EEE; -moz-box-shadow:0 0 6px #EEE; padding: 1px; float: left; background: #FFF; z-index: 100; }
+.imgbox img {display: block; padding: 6px; max-width: 250px; }
+.imgbox .img_user {display: block; color: #26ADF5; padding: 3px 6px 2px 6px; }
+
+
+#next_page {display: none; }
+
+/*** 图片显示页面 ***/
+
+#image {width: 900px; padding: 30px 10px 20px 10px; background: #FFF; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px; border:1px solid #EEE; -webkit-box-shadow: 0 0 6px #EEE; -moz-box-shadow: 0 0 3px #FFF; }
+
+.next_but_left, .next_but_right {width: 60px; float: left; }
+.next_but_left_content, .next_but_right_content  {height: 40px; width: 60px; margin-top: 10px; }
+
+.image {width: 780px; float: left; }
+.image img {display: block; max-width: 750px; padding: 10px; margin: 0 auto; }
+#the_image {visibility: hidden; }
+
+div.delimg {width: 884px; float: left; }
+div.delimg img {display: block; width: 22px; height: 22px; float: right; }
+
+
+#preview{
+	position:absolute;
+	border:1px solid #ccc;
+	background:#333;
+	padding:5px;
+	display:none;
+	color:#fff;
+	z-index:300;
+	}
